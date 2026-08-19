@@ -186,7 +186,7 @@ def main():
         print()
         print("-" * 30)
         
-        # Question 4: PSU (FIXED)
+        # Question 4: PSU 
         print(f"{Fore.CYAN}Question 4 of {total_questions}{Style.RESET_ALL}")
         is_correct, time_taken, user_answer = ask_question_with_timer(
             "What does PSU stand for?", 
@@ -205,7 +205,7 @@ def main():
         print()
         print("-" * 30)
         
-        # Question 5: SSD (FIXED)
+        # Question 5: SSD 
         print(f"{Fore.CYAN}Question 5 of {total_questions}{Style.RESET_ALL}")
         is_correct, time_taken, user_answer = ask_question_with_timer(
             "What does SSD stand for?", 
@@ -224,7 +224,7 @@ def main():
         print()
         print("-" * 30)
         
-        # Question 6: HDD (FIXED)
+        # Question 6: HDD 
         print(f"{Fore.CYAN}Question 6 of {total_questions}{Style.RESET_ALL}")
         is_correct, time_taken, user_answer = ask_question_with_timer(
             "What does HDD stand for?", 
